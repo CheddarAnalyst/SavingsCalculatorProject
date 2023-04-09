@@ -1,0 +1,37 @@
+#A program for Alice
+#You've now calculated that working part-time, Bob can still save up about $8k yearly, so Bob can indeed live this way.
+
+#Working part-time, Bob now has more time for dating. He meets Alice and wants to show her the program.
+
+#Alice earns $30/hour, works 45 hours per week for 46 weeks per year, and spends $500 each week. Change the variables and figure out Alice's yearly earnings.
+
+# --- Display a greeting ---
+greeting = "Hello "
+name = "Alice"
+print(greeting + name)
+
+# --- Calculate the yearly income ---
+
+hourly_wage = 30
+hours_per_week = 45
+income_per_week = hourly_wage * hours_per_week
+weeks_per_year = 46
+income_per_year = weeks_per_year * income_per_week
+
+
+print(name + "'s yearly income is:")
+print(income_per_year)
+
+# --- Calculate the yearly spend ---
+spend_per_week = 500
+spend_per_year = spend_per_week * 52
+print(name + "'s yearly spend is:")
+print(spend_per_year)
+
+
+# --- Calculate the yearly savings ---
+income_per_year = weeks_per_year * income_per_week
+spend_per_year = spend_per_week * 52
+savings_per_year = income_per_year - spend_per_year
+print(name + "'s yearly savings:")
+print(savings_per_year)
